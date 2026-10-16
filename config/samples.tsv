@@ -1,0 +1,13 @@
+sample_id	run_accession	geo_sample_name	cell_type	status
+luminal.virgin.1	SRR1552444	MCL1.LA	luminal	virgin
+luminal.virgin.2	SRR1552445	MCL1.LB	luminal	virgin
+luminal.pregnant.1	SRR1552446	MCL1.LC	luminal	pregnant
+luminal.pregnant.2	SRR1552447	MCL1.LD	luminal	pregnant
+luminal.lactate.1	SRR1552448	MCL1.LE	luminal	lactate
+luminal.lactate.2	SRR1552449	MCL1.LF	luminal	lactate
+basal.virgin.1	SRR1552450	MCL1.DG	basal	virgin
+basal.virgin.2	SRR1552451	MCL1.DH	basal	virgin
+basal.pregnant.1	SRR1552452	MCL1.DI	basal	pregnant
+basal.pregnant.2	SRR1552453	MCL1.DJ	basal	pregnant
+basal.lactate.1	SRR1552454	MCL1.DK	basal	lactate
+basal.lactate.2	SRR1552455	MCL1.DL	basal	lactate

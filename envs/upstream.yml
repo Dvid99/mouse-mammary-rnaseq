@@ -1,0 +1,19 @@
+name: rnaseq-upstream
+channels:
+  - conda-forge
+  - bioconda
+# Versions marked [05MBIF] match the course environment used for the original
+# analysis; the rest were not in that export and are pinned to stable releases.
+dependencies:
+  - python=3.9            # [05MBIF] used 3.9.5; that exact build needs OpenSSL 1.1, which current samtools/htslib can't use
+  - fastqc=0.11.9         # [05MBIF]
+  - cutadapt=3.5          # [05MBIF] (used by Trim Galore)
+  - trim-galore=0.6.10
+  - hisat2=2.2.1          # [05MBIF]
+  - samtools=1.18
+  - qualimap=2.3
+  - htseq=2.0.5
+  - multiqc=1.21
+  - pandas
+  - matplotlib
+  - nextflow=24.04.4

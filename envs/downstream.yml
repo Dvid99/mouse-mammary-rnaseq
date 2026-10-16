@@ -1,0 +1,15 @@
+name: rnaseq-downstream
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.3
+  - bioconductor-edger>=4.0
+  - bioconductor-limma
+  - bioconductor-org.mm.eg.db
+  - bioconductor-annotationdbi
+  - bioconductor-topgo
+  - r-ggplot2
+  - r-ggrepel
+  - r-pheatmap
+  - r-venndiagram

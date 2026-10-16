@@ -1,0 +1,27 @@
+# Input data (download with scripts/00_download_data.sh)
+data/*
+!data/README.md
+
+# Pipeline outputs — only curated figures are versioned
+results/*
+!results/figures/
+results_nextflow/
+
+# Large intermediate files
+*.fastq.gz
+*.fq.gz
+*.sam
+*.bam
+*.bai
+*.ht2
+
+# Nextflow
+.nextflow*
+work/
+
+# R / Python / OS
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+.DS_Store
